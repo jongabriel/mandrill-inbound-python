@@ -1,0 +1,73 @@
+mandrill_events=[
+    {
+        "event": "open",
+        "ts": 1421362071,
+        "user_agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/7.0; .NET CLR 3.0.30729; Microsoft Outlook 14.0.7113; ms-office; MSOffice 14)",
+        "user_agent_parsed": {
+            "type": "Email Client",
+            "ua_family": "Outlook 2010",
+            "ua_name": "Outlook 2010",
+            "ua_version": null,
+            "ua_url": "http://en.wikipedia.org/wiki/Microsoft_Outlook",
+            "ua_company": "Microsoft Corporation.",
+            "ua_company_url": "http://www.microsoft.com/",
+            "ua_icon": "http://cdn.mandrill.com/img/email-client-icons/outlook-2010.png",
+            "os_family": "Windows",
+            "os_name": "Windows 7",
+            "os_url": "http://en.wikipedia.org/wiki/Windows_7",
+            "os_company": "Microsoft Corporation.",
+            "os_company_url": "http://www.microsoft.com/",
+            "os_icon": "http://cdn.mandrill.com/img/email-client-icons/windows-7.png",
+            "mobile": false
+        },
+        "ip": "200.71.135.255",
+        "location": {
+            "country_short": "US",
+            "country": "United States",
+            "region": "Colorado",
+            "city": "Denver",
+            "latitude": 40.647769995,
+            "longitude": -102.987762410,
+            "postal_code": "80005",
+            "timezone": "-06:00"
+        },
+        "_id": "19acfd2a22247d787e2cc4890149a2d",
+        "msg": {
+            "ts": 1421075835,
+            "_id": "19acfd2a22247d787e2cc4890149a2d",
+            "state": "sent",
+            "subject": "Notification!!!11",
+            "email": "receiver@example.com",
+            "tags": [],
+            "opens": [
+                {
+                    "ts": 1421080015,
+                    "ip": "101.101.101.101",
+                    "location": "California, US",
+                    "ua": "OS X/OS X/Apple Mail/Apple Mail"
+                },
+                {
+                    "ts": 1421340784,
+                    "ip": "101.101.101.102",
+                    "location": "California, US",
+                    "ua": "Windows/Windows 7/Outlook 2010/Outlook 2010"
+                }
+            ],
+            "clicks": [],
+            "smtp_events": [
+                {
+                    "ts": 1421075957,
+                    "type": "sent",
+                    "diag": "250 Backend Replied [b75e3c46.p01c12m101.example.net]: 2.6.0 <30417799.20150110151715.b75e3c46",
+                    "source_ip": "198.168.128.128",
+                    "destination_ip": "208.65.255.255",
+                    "size": 14140
+                }
+            ],
+            "resends": [],
+            "_version": "EdkKpAQf9BVZ_JG-LiPzZE",
+            "sender": "sender@example.com",
+            "template": "notification"
+        }
+    }
+]
